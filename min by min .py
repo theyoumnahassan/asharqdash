@@ -139,7 +139,7 @@ def update_graph(selected_date):
 # Run the Dash App
 if __name__ == '__main__':
     app.run_server()
-
+server = app.server
 
 # In[ ]:
 
